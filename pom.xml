@@ -8,7 +8,7 @@
     <scm>
         <developerConnection>scm:git:git@github.com:jrmichael/gitkata-gitflow.git</developerConnection>
       <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <build>
         <plugins>
