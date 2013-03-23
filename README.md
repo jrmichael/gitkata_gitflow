@@ -1,6 +1,3 @@
 ### readme
 
 whatever
-
-
-alallala
