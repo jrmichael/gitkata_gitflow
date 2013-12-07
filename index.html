@@ -1,12 +1,27 @@
 <html>
 <head>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/version.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.min.js"></script>
+    <script>
+        angular.module('myApp', [])
+                .controller('ctrl', ['$scope', function ($scope) {
+                    $scope.version = currentVersion;
+                }])
+
+    </script>
 </head>
-<body style="background: #dbb543" ng-app>
+<body style="background: #dbb543" ng-app="myApp" ng-controller="ctrl">
 
 <div class="container-fluid">
+    <div class="row-fluid">
+        <div class="well">
+            <div class="span11">gitkata</div>
+            <div class="span1">
+                {{ version }}
+            </div>
+        </div>
+    </div>
     <div class="row-fluid">
         <div class="span3"></div>
         <div class="well span6">

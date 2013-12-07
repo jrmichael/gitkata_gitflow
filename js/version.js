@@ -1,0 +1,1 @@
+var currentVersion = '0.5.0'
