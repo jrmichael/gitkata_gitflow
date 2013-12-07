@@ -1,1 +1,1 @@
-var currentVersion = '0.6.0'
+var currentVersion = '0.7.0.SNAPSHOT'
